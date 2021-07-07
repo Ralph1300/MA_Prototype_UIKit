@@ -7,6 +7,28 @@
 
 import Foundation
 
+struct Exercise: Identifiable, Hashable {
+    let id = UUID()
+    let name: String
+    let value: String
+    
+    var text: String {
+        return "\(value)s \(name)"
+    }
+}
+
+struct Round: Identifiable, Hashable {
+    let id = UUID()
+    let exercises: [Exercise]
+}
+
+struct Workout {
+    let name: String
+    let description: String
+    let rounds: [Round]
+    let warmup: Round?
+}
+
 enum WorkoutFactory {
     
     static func makeWorkout(roundCount rounds: Int, includeWarmup: Bool) -> Workout {
