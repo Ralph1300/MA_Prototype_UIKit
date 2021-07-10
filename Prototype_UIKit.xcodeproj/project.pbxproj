@@ -19,6 +19,10 @@
 		881A0759269614F600551E6E /* Mock3.png in Resources */ = {isa = PBXBuildFile; fileRef = 881A0754269614F600551E6E /* Mock3.png */; };
 		881A075B2696150400551E6E /* WorkoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A075A2696150400551E6E /* WorkoutFactory.swift */; };
 		881A075D2696165100551E6E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 881A075C2696165100551E6E /* README.md */; };
+		881A07672697666700551E6E /* MockScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A07662697666700551E6E /* MockScreenOneViewController.swift */; };
+		881A0769269777A300551E6E /* MockScreenOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A0768269777A300551E6E /* MockScreenOneViewModel.swift */; };
+		881A076B269778B700551E6E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A076A269778B700551E6E /* PrimaryButton.swift */; };
+		88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		881A0754269614F600551E6E /* Mock3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mock3.png; sourceTree = "<group>"; };
 		881A075A2696150400551E6E /* WorkoutFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutFactory.swift; sourceTree = "<group>"; };
 		881A075C2696165100551E6E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		881A07662697666700551E6E /* MockScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenOneViewController.swift; sourceTree = "<group>"; };
+		881A0768269777A300551E6E /* MockScreenOneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenOneViewModel.swift; sourceTree = "<group>"; };
+		881A076A269778B700551E6E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 				881A073F269614A000551E6E /* TabbarViewController.swift */,
 				881A075E2696165B00551E6E /* Helper */,
 				881A074F269614A900551E6E /* Mocks */,
+				881A07602696182C00551E6E /* MockViews */,
 				881A075F2696169B00551E6E /* SupportingFiles */,
 			);
 			path = Prototype_UIKit;
@@ -95,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				881A075A2696150400551E6E /* WorkoutFactory.swift */,
+				881A076A269778B700551E6E /* PrimaryButton.swift */,
+				88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -107,6 +118,55 @@
 				881A0749269614A100551E6E /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		881A07602696182C00551E6E /* MockViews */ = {
+			isa = PBXGroup;
+			children = (
+				881A07612696183300551E6E /* Mock1 */,
+				881A07622696183700551E6E /* Mock2 */,
+				881A07632696183C00551E6E /* Mock3 */,
+				881A07642696184000551E6E /* Mock4 */,
+				881A07652696184500551E6E /* Mock5 */,
+			);
+			path = MockViews;
+			sourceTree = "<group>";
+		};
+		881A07612696183300551E6E /* Mock1 */ = {
+			isa = PBXGroup;
+			children = (
+				881A07662697666700551E6E /* MockScreenOneViewController.swift */,
+				881A0768269777A300551E6E /* MockScreenOneViewModel.swift */,
+			);
+			path = Mock1;
+			sourceTree = "<group>";
+		};
+		881A07622696183700551E6E /* Mock2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock2;
+			sourceTree = "<group>";
+		};
+		881A07632696183C00551E6E /* Mock3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock3;
+			sourceTree = "<group>";
+		};
+		881A07642696184000551E6E /* Mock4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock4;
+			sourceTree = "<group>";
+		};
+		881A07652696184500551E6E /* Mock5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +248,10 @@
 				881A073C269614A000551E6E /* AppDelegate.swift in Sources */,
 				881A075B2696150400551E6E /* WorkoutFactory.swift in Sources */,
 				881A073E269614A000551E6E /* SceneDelegate.swift in Sources */,
+				881A076B269778B700551E6E /* PrimaryButton.swift in Sources */,
+				881A07672697666700551E6E /* MockScreenOneViewController.swift in Sources */,
+				88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */,
+				881A0769269777A300551E6E /* MockScreenOneViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

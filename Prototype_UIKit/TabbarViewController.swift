@@ -8,12 +8,17 @@
 import UIKit
 
 final class TabbarViewController: UITabBarController {
+    
+    private lazy var mockOne: MockScreenOneViewController = {
+        let tabItem = UITabBarItem(title: "Mock1", image: nil, selectedImage: nil)
+        let viewController = MockScreenOneViewController()
+        viewController.tabBarItem = tabItem
+        return viewController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        viewControllers = [mockOne]
     }
-
-
 }
-
