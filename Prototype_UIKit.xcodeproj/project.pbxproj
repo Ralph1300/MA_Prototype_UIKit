@@ -22,7 +22,13 @@
 		881A07672697666700551E6E /* MockScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A07662697666700551E6E /* MockScreenOneViewController.swift */; };
 		881A0769269777A300551E6E /* MockScreenOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A0768269777A300551E6E /* MockScreenOneViewModel.swift */; };
 		881A076B269778B700551E6E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A076A269778B700551E6E /* PrimaryButton.swift */; };
+		88A5B177269E08B700C49CD1 /* GenderSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5B176269E08B700C49CD1 /* GenderSelectionView.swift */; };
+		88A5B179269E0E3A00C49CD1 /* HeaderInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */; };
+		88C68A0326A203A200A8FB37 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0226A203A200A8FB37 /* PickerView.swift */; };
+		88C68A0526A2D38300A8FB37 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0426A2D38300A8FB37 /* DatePickerView.swift */; };
 		88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */; };
+		88DE77F12699E55A0049F9BF /* MockScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */; };
+		88DE77F32699E58F0049F9BF /* MockScreenTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +49,13 @@
 		881A07662697666700551E6E /* MockScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenOneViewController.swift; sourceTree = "<group>"; };
 		881A0768269777A300551E6E /* MockScreenOneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenOneViewModel.swift; sourceTree = "<group>"; };
 		881A076A269778B700551E6E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		88A5B176269E08B700C49CD1 /* GenderSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelectionView.swift; sourceTree = "<group>"; };
+		88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInputView.swift; sourceTree = "<group>"; };
+		88C68A0226A203A200A8FB37 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		88C68A0426A2D38300A8FB37 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenTwoViewController.swift; sourceTree = "<group>"; };
+		88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenTwoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +156,9 @@
 		881A07622696183700551E6E /* Mock2 */ = {
 			isa = PBXGroup;
 			children = (
+				88A5B175269E08AF00C49CD1 /* Views */,
+				88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */,
+				88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */,
 			);
 			path = Mock2;
 			sourceTree = "<group>";
@@ -167,6 +182,17 @@
 			children = (
 			);
 			path = Mock5;
+			sourceTree = "<group>";
+		};
+		88A5B175269E08AF00C49CD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88C68A0426A2D38300A8FB37 /* DatePickerView.swift */,
+				88A5B176269E08B700C49CD1 /* GenderSelectionView.swift */,
+				88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */,
+				88C68A0226A203A200A8FB37 /* PickerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,13 +271,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				881A0740269614A000551E6E /* TabbarViewController.swift in Sources */,
+				88DE77F12699E55A0049F9BF /* MockScreenTwoViewController.swift in Sources */,
 				881A073C269614A000551E6E /* AppDelegate.swift in Sources */,
 				881A075B2696150400551E6E /* WorkoutFactory.swift in Sources */,
+				88C68A0526A2D38300A8FB37 /* DatePickerView.swift in Sources */,
+				88A5B179269E0E3A00C49CD1 /* HeaderInputView.swift in Sources */,
+				88A5B177269E08B700C49CD1 /* GenderSelectionView.swift in Sources */,
 				881A073E269614A000551E6E /* SceneDelegate.swift in Sources */,
 				881A076B269778B700551E6E /* PrimaryButton.swift in Sources */,
 				881A07672697666700551E6E /* MockScreenOneViewController.swift in Sources */,
 				88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */,
 				881A0769269777A300551E6E /* MockScreenOneViewModel.swift in Sources */,
+				88DE77F32699E58F0049F9BF /* MockScreenTwoViewModel.swift in Sources */,
+				88C68A0326A203A200A8FB37 /* PickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
