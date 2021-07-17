@@ -22,10 +22,17 @@ final class TabbarViewController: UITabBarController {
         viewController.tabBarItem = tabItem
         return viewController
     }()
+    
+    private lazy var mockThree: MockScreenThreeViewController = {
+        let tabItem = UITabBarItem(title: "Mock3", image: nil, selectedImage: nil)
+        let viewController = MockScreenThreeViewController()
+        viewController.tabBarItem = tabItem
+        return viewController
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [mockOne, mockTwo]
+        viewControllers = [mockOne, mockTwo, mockThree]
     }
 }

@@ -26,6 +26,10 @@
 		88A5B179269E0E3A00C49CD1 /* HeaderInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */; };
 		88C68A0326A203A200A8FB37 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0226A203A200A8FB37 /* PickerView.swift */; };
 		88C68A0526A2D38300A8FB37 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0426A2D38300A8FB37 /* DatePickerView.swift */; };
+		88C68A0726A2EF9800A8FB37 /* MockScreenThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0626A2EF9800A8FB37 /* MockScreenThreeViewModel.swift */; };
+		88C68A0926A2F0AA00A8FB37 /* MockScreenThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0826A2F0AA00A8FB37 /* MockScreenThreeViewController.swift */; };
+		88C68A0C26A30D1000A8FB37 /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0B26A30D1000A8FB37 /* QuestionPageViewController.swift */; };
+		88C68A0E26A30D6400A8FB37 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C68A0D26A30D6400A8FB37 /* AnswerView.swift */; };
 		88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */; };
 		88DE77F12699E55A0049F9BF /* MockScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */; };
 		88DE77F32699E58F0049F9BF /* MockScreenTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */; };
@@ -53,6 +57,10 @@
 		88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInputView.swift; sourceTree = "<group>"; };
 		88C68A0226A203A200A8FB37 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		88C68A0426A2D38300A8FB37 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		88C68A0626A2EF9800A8FB37 /* MockScreenThreeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenThreeViewModel.swift; sourceTree = "<group>"; };
+		88C68A0826A2F0AA00A8FB37 /* MockScreenThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenThreeViewController.swift; sourceTree = "<group>"; };
+		88C68A0B26A30D1000A8FB37 /* QuestionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		88C68A0D26A30D6400A8FB37 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 		88DE77EE2699B3770049F9BF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenTwoViewController.swift; sourceTree = "<group>"; };
 		88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenTwoViewModel.swift; sourceTree = "<group>"; };
@@ -156,9 +164,9 @@
 		881A07622696183700551E6E /* Mock2 */ = {
 			isa = PBXGroup;
 			children = (
-				88A5B175269E08AF00C49CD1 /* Views */,
 				88DE77F02699E5590049F9BF /* MockScreenTwoViewController.swift */,
 				88DE77F22699E58F0049F9BF /* MockScreenTwoViewModel.swift */,
+				88A5B175269E08AF00C49CD1 /* Views */,
 			);
 			path = Mock2;
 			sourceTree = "<group>";
@@ -166,6 +174,9 @@
 		881A07632696183C00551E6E /* Mock3 */ = {
 			isa = PBXGroup;
 			children = (
+				88C68A0826A2F0AA00A8FB37 /* MockScreenThreeViewController.swift */,
+				88C68A0626A2EF9800A8FB37 /* MockScreenThreeViewModel.swift */,
+				88C68A0A26A30CFC00A8FB37 /* Views */,
 			);
 			path = Mock3;
 			sourceTree = "<group>";
@@ -191,6 +202,15 @@
 				88A5B176269E08B700C49CD1 /* GenderSelectionView.swift */,
 				88A5B178269E0E3A00C49CD1 /* HeaderInputView.swift */,
 				88C68A0226A203A200A8FB37 /* PickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88C68A0A26A30CFC00A8FB37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88C68A0D26A30D6400A8FB37 /* AnswerView.swift */,
+				88C68A0B26A30D1000A8FB37 /* QuestionPageViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,11 +296,15 @@
 				881A075B2696150400551E6E /* WorkoutFactory.swift in Sources */,
 				88C68A0526A2D38300A8FB37 /* DatePickerView.swift in Sources */,
 				88A5B179269E0E3A00C49CD1 /* HeaderInputView.swift in Sources */,
+				88C68A0726A2EF9800A8FB37 /* MockScreenThreeViewModel.swift in Sources */,
+				88C68A0926A2F0AA00A8FB37 /* MockScreenThreeViewController.swift in Sources */,
 				88A5B177269E08B700C49CD1 /* GenderSelectionView.swift in Sources */,
 				881A073E269614A000551E6E /* SceneDelegate.swift in Sources */,
 				881A076B269778B700551E6E /* PrimaryButton.swift in Sources */,
+				88C68A0C26A30D1000A8FB37 /* QuestionPageViewController.swift in Sources */,
 				881A07672697666700551E6E /* MockScreenOneViewController.swift in Sources */,
 				88DE77EF2699B3770049F9BF /* UIView+Extensions.swift in Sources */,
+				88C68A0E26A30D6400A8FB37 /* AnswerView.swift in Sources */,
 				881A0769269777A300551E6E /* MockScreenOneViewModel.swift in Sources */,
 				88DE77F32699E58F0049F9BF /* MockScreenTwoViewModel.swift in Sources */,
 				88C68A0326A203A200A8FB37 /* PickerView.swift in Sources */,
