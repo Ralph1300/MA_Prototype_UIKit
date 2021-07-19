@@ -22,6 +22,14 @@ extension UIView {
         ])
     }
     
+    func center(in view: UIView) {
+        assert(!translatesAutoresizingMaskIntoConstraints)
+        NSLayoutConstraint.activate([
+            centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+    }
+
     func makeEdgesEqual(to view: UIView) {
         assert(!translatesAutoresizingMaskIntoConstraints)
         NSLayoutConstraint.activate([
