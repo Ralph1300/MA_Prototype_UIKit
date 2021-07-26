@@ -36,10 +36,18 @@ final class TabbarViewController: UITabBarController {
         viewController.tabBarItem = tabItem
         return UINavigationController(rootViewController: viewController)
     }()
+    
+    private lazy var mockFive: UIViewController = {
+        let tabItem = UITabBarItem(title: "Mock5", image: nil, selectedImage: nil)
+        let viewController = MockScreenFiveViewController()
+        viewController.tabBarItem = tabItem
+        return UINavigationController(rootViewController: viewController)
+    }()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [mockOne, mockTwo, mockThree, mockFour]
+        viewControllers = [mockOne, mockTwo, mockThree, mockFour, mockFive]
     }
 }
