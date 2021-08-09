@@ -1,0 +1,353 @@
+{
+    "non-test-frameworks": [
+        {
+            "AppTarget": {
+                "loc": 70,
+                "noc": 38,
+                "poc": 35.185,
+                "n_a": 0,
+                "n_c": 3,
+                "nom": 10,
+                "not": 0,
+                "noi": 0,
+                "analysis": "Zone of Pain. Highly stable and concrete component - rigid, hard to extend (not abstract). This component should not be volatile (e.g. a stable foundation library such as Strings).",
+                "dependencies": [],
+                "submodules": {
+                    "AppTarget": {
+                        "n_of_files": 3,
+                        "metric": {
+                            "loc": 70,
+                            "noc": 38,
+                            "n_a": 0,
+                            "n_c": 3,
+                            "nom": 10,
+                            "not": 0,
+                            "poc": 35.185
+                        },
+                        "submodules": [
+                            {
+                                "MA_Prototype_UIKit-main": {
+                                    "n_of_files": 3,
+                                    "metric": {
+                                        "loc": 70,
+                                        "noc": 38,
+                                        "n_a": 0,
+                                        "n_c": 3,
+                                        "nom": 10,
+                                        "not": 0,
+                                        "poc": 35.185
+                                    },
+                                    "submodules": [
+                                        {
+                                            "Prototype_UIKit": {
+                                                "n_of_files": 3,
+                                                "metric": {
+                                                    "loc": 70,
+                                                    "noc": 38,
+                                                    "n_a": 0,
+                                                    "n_c": 3,
+                                                    "nom": 10,
+                                                    "not": 0,
+                                                    "poc": 35.185
+                                                },
+                                                "submodules": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "fan_in": 0,
+                "fan_out": 0,
+                "i": 0.0,
+                "a": 0.0,
+                "d_3": 1.0
+            }
+        },
+        {
+            "Helper": {
+                "loc": 103,
+                "noc": 19,
+                "poc": 15.574,
+                "n_a": 0,
+                "n_c": 4,
+                "nom": 10,
+                "not": 0,
+                "noi": 0,
+                "analysis": "The code is under commented. Zone of Pain. Highly stable and concrete component - rigid, hard to extend (not abstract). This component should not be volatile (e.g. a stable foundation library such as Strings).",
+                "dependencies": [],
+                "submodules": {
+                    "Helper": {
+                        "n_of_files": 3,
+                        "metric": {
+                            "loc": 103,
+                            "noc": 19,
+                            "n_a": 0,
+                            "n_c": 4,
+                            "nom": 10,
+                            "not": 0,
+                            "poc": 15.574
+                        },
+                        "submodules": [
+                            {
+                                "Helper": {
+                                    "n_of_files": 3,
+                                    "metric": {
+                                        "loc": 103,
+                                        "noc": 19,
+                                        "n_a": 0,
+                                        "n_c": 4,
+                                        "nom": 10,
+                                        "not": 0,
+                                        "poc": 15.574
+                                    },
+                                    "submodules": []
+                                }
+                            }
+                        ]
+                    }
+                },
+                "fan_in": 0,
+                "fan_out": 0,
+                "i": 0.0,
+                "a": 0.0,
+                "d_3": 1.0
+            }
+        },
+        {
+            "MockViews": {
+                "loc": 1419,
+                "noc": 140,
+                "poc": 8.98,
+                "n_a": 4,
+                "n_c": 23,
+                "nom": 119,
+                "not": 0,
+                "noi": 0,
+                "analysis": "The code is under commented. Zone of Pain. Highly stable and concrete component - rigid, hard to extend (not abstract). This component should not be volatile (e.g. a stable foundation library such as Strings).",
+                "dependencies": [],
+                "submodules": {
+                    "MockViews": {
+                        "n_of_files": 19,
+                        "metric": {
+                            "loc": 1419,
+                            "noc": 140,
+                            "n_a": 4,
+                            "n_c": 23,
+                            "nom": 119,
+                            "not": 0,
+                            "poc": 8.98
+                        },
+                        "submodules": [
+                            {
+                                "MockViews": {
+                                    "n_of_files": 19,
+                                    "metric": {
+                                        "loc": 1419,
+                                        "noc": 140,
+                                        "n_a": 4,
+                                        "n_c": 23,
+                                        "nom": 119,
+                                        "not": 0,
+                                        "poc": 8.98
+                                    },
+                                    "submodules": [
+                                        {
+                                            "Mock1": {
+                                                "n_of_files": 2,
+                                                "metric": {
+                                                    "loc": 135,
+                                                    "noc": 15,
+                                                    "n_a": 0,
+                                                    "n_c": 2,
+                                                    "nom": 12,
+                                                    "not": 0,
+                                                    "poc": 10.0
+                                                },
+                                                "submodules": []
+                                            }
+                                        },
+                                        {
+                                            "Mock2": {
+                                                "n_of_files": 6,
+                                                "metric": {
+                                                    "loc": 488,
+                                                    "noc": 48,
+                                                    "n_a": 2,
+                                                    "n_c": 6,
+                                                    "nom": 42,
+                                                    "not": 0,
+                                                    "poc": 8.955
+                                                },
+                                                "submodules": [
+                                                    {
+                                                        "Views": {
+                                                            "n_of_files": 4,
+                                                            "metric": {
+                                                                "loc": 336,
+                                                                "noc": 32,
+                                                                "n_a": 2,
+                                                                "n_c": 4,
+                                                                "nom": 29,
+                                                                "not": 0,
+                                                                "poc": 8.696
+                                                            },
+                                                            "submodules": []
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Mock5": {
+                                                "n_of_files": 4,
+                                                "metric": {
+                                                    "loc": 278,
+                                                    "noc": 29,
+                                                    "n_a": 1,
+                                                    "n_c": 5,
+                                                    "nom": 23,
+                                                    "not": 0,
+                                                    "poc": 9.446
+                                                },
+                                                "submodules": [
+                                                    {
+                                                        "Views": {
+                                                            "n_of_files": 2,
+                                                            "metric": {
+                                                                "loc": 119,
+                                                                "noc": 13,
+                                                                "n_a": 1,
+                                                                "n_c": 2,
+                                                                "nom": 7,
+                                                                "not": 0,
+                                                                "poc": 9.848
+                                                            },
+                                                            "submodules": []
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Mock4": {
+                                                "n_of_files": 3,
+                                                "metric": {
+                                                    "loc": 252,
+                                                    "noc": 20,
+                                                    "n_a": 0,
+                                                    "n_c": 6,
+                                                    "nom": 19,
+                                                    "not": 0,
+                                                    "poc": 7.353
+                                                },
+                                                "submodules": [
+                                                    {
+                                                        "Views": {
+                                                            "n_of_files": 1,
+                                                            "metric": {
+                                                                "loc": 59,
+                                                                "noc": 6,
+                                                                "n_a": 0,
+                                                                "n_c": 1,
+                                                                "nom": 5,
+                                                                "not": 0,
+                                                                "poc": 9.231
+                                                            },
+                                                            "submodules": []
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Mock3": {
+                                                "n_of_files": 4,
+                                                "metric": {
+                                                    "loc": 266,
+                                                    "noc": 28,
+                                                    "n_a": 1,
+                                                    "n_c": 4,
+                                                    "nom": 23,
+                                                    "not": 0,
+                                                    "poc": 9.524
+                                                },
+                                                "submodules": [
+                                                    {
+                                                        "Views": {
+                                                            "n_of_files": 2,
+                                                            "metric": {
+                                                                "loc": 127,
+                                                                "noc": 14,
+                                                                "n_a": 1,
+                                                                "n_c": 2,
+                                                                "nom": 12,
+                                                                "not": 0,
+                                                                "poc": 9.929
+                                                            },
+                                                            "submodules": []
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "fan_in": 0,
+                "fan_out": 0,
+                "i": 0.0,
+                "a": 0.174,
+                "d_3": 0.826
+            }
+        }
+    ],
+    "tests-frameworks": [],
+    "shared": {
+        "loc": 0,
+        "noc": 0,
+        "n_a": 0,
+        "n_c": 0,
+        "nom": 0,
+        "not": 0,
+        "poc": 0.0,
+        "noi": 0
+    },
+    "aggregate": {
+        "non-test-frameworks": {
+            "loc": 1592,
+            "noc": 197,
+            "n_a": 4,
+            "n_c": 30,
+            "nom": 139,
+            "not": 0,
+            "poc": 11.012,
+            "noi": 0
+        },
+        "tests-frameworks": {
+            "loc": 0,
+            "noc": 0,
+            "n_a": 0,
+            "n_c": 0,
+            "nom": 0,
+            "not": 0,
+            "poc": 0.0,
+            "noi": 0
+        },
+        "total": {
+            "loc": 1592,
+            "noc": 197,
+            "n_a": 4,
+            "n_c": 30,
+            "nom": 139,
+            "not": 0,
+            "poc": 11.012,
+            "noi": 0
+        }
+    }
+}

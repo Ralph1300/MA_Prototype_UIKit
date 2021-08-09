@@ -19,7 +19,6 @@ final class MockScreenFourViewController: UIViewController {
     private let continueButton = PrimaryButton()
     private lazy var headerInfoView = HeaderInformationView(title: viewModel.title, planDescription: viewModel.description, duration: viewModel.duration)
     private lazy var exampleWorkoutView = makeExampleView(from: viewModel.makeWorkoutRowItems())
-    private lazy var userReviewView = makeExampleView(from: viewModel.makeReviewRowItems())
     
     init(viewModel: MockScreenFourViewModel = .init()) {
         self.viewModel = viewModel
@@ -48,8 +47,7 @@ final class MockScreenFourViewController: UIViewController {
                                               headerInfoView,
                                               makeDivider(),
                                               exampleWorkoutView,
-                                              makeDivider(),
-                                              userReviewView])
+                                              makeDivider()])
         
         contentStackView.axis = .vertical
         contentStackView.spacing = 8

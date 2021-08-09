@@ -49,9 +49,5 @@ final class MockScreenFourViewModel {
     func makeWorkoutRowItems() -> [RowItem] {
         return workouts.map { RowItem(itemType: .title($0.day), title: $0.title, description: $0.exercises) }
     }
-    
-    func makeReviewRowItems() -> [RowItem] {
-        return reviews.map { RowItem(itemType: .image($0.image), title: "\($0.name), \($0.age)", description: $0.review) }
-    }
 }
 
